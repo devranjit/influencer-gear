@@ -31,9 +31,22 @@
 }
 
 
+.btn-main{
+    padding: 10px 20px;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 16px;
+    
+}
 
+.btn-main a{
+    color: #fff;
+    text-decoration: none;
+}
 
-
+.hero-img{
+    background-image: url(/images/Circle\ design.svg);
+}
 
 
 
@@ -91,4 +104,38 @@
 
 .mob-header{
     display: none;
+}
+
+
+
+/* header styles ends here  */
+
+
+
+
+/* hero section styles codes  */
+
+
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    
+}
+
+.hero-section h1{
+    font-size: 52px;
+    font-weight: 700;
+    lighting-color: 70px;
+
+}
+
+.hero-section p{
+    font-size: 16px;
+    line-height: 10px;
+    font-weight: 600;
+    padding: 30px 0;
+    
 }
