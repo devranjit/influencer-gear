@@ -1,0 +1,102 @@
+
+@media screen and (max-width:576px){
+    .header-main h1 {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+/* this one is mobile only header section style  */
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .mob-header{
+        display: inline;
+    }
+    .header-main{
+
+        display:none;
+    }
+
+    .mob-header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+
+
+    }
+
+    .mob-header h1{
+        font-size: 1.3rem;
+        align-items: center;
+    }
+
+   
+
+
+    .cart-icon:hover .mob-menu{
+        display: block;
+    }
+
+
+    .mob-header{
+        position: relative;
+    }
+
+   .mob-menu li {
+    
+    list-style-type: none;
+    margin-left: 15px;
+   }
+
+   .mob-menu li a{
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+}
+    
+
+
+.menu-con:hover .mob-menu{
+    display: none;
+}
+
+.mob-menu{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    z-index: 0;
+
+}
+
+
+
+
+
+.tabb{
+    z-index: 999;
+}
+
+.mob-header:hover .mob-menu{
+    display: inline;
+    
+    
+   
+
+}
+
+
+
+}
